@@ -13,7 +13,7 @@ To use Vert.x gRPC/IO Client, add the following dependency to the _dependencies_
 [source,xml,subs="+attributes"]
 ----
 <dependency>
-  <groupId>io.vertx</groupId>
+  <groupId>com.adparts</groupId>
   <artifactId>vertx-grpcio-client</artifactId>
   <version>${maven.version}</version>
 </dependency>
@@ -62,7 +62,7 @@ By default, `GreeterGrpcIo` is not generated, to activate it you need to tell th
 ----
 <protocPlugin>
   <id>vertx-grpc-protoc-plugin2</id>
-  <groupId>io.vertx</groupId>
+  <groupId>com.adparts</groupId>
   <artifactId>vertx-grpc-protoc-plugin2</artifactId>
   <version>${stack.version}</version>
   <mainClass>io.vertx.grpc.plugin.VertxGrpcGenerator</mainClass>

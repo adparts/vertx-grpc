@@ -53,7 +53,7 @@ If you’re using Apache Maven you need to add the plugin:
     <protocPlugins>
       <protocPlugin>
         <id>vertx-grpc-protoc-plugin2</id>
-        <groupId>io.vertx</groupId>
+        <groupId>com.adparts</groupId>
         <artifactId>vertx-grpc-protoc-plugin2</artifactId>
         <version>${stack.version}</version>
         <mainClass>io.vertx.grpc.plugin.VertxGrpcGenerator</mainClass>
@@ -103,7 +103,7 @@ By default, the plugin generates both client and service files. If you need only
 ----
 <protocPlugin>
   <id>vertx-grpc-protoc-plugin2</id>
-  <groupId>io.vertx</groupId>
+  <groupId>com.adparts</groupId>
   <artifactId>vertx-grpc-protoc-plugin2</artifactId>
   <version>${stack.version}</version>
   <mainClass>io.vertx.grpc.plugin.VertxGrpcGenerator</mainClass>

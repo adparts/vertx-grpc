@@ -13,7 +13,7 @@ To use Vert.x gRPC Server, add the following dependency to the _dependencies_ se
 [source,xml,subs="+attributes"]
 ----
 <dependency>
-  <groupId>io.vertx</groupId>
+  <groupId>com.adparts</groupId>
   <artifactId>vertx-grpc-server</artifactId>
   <version>${maven.version}</version>
 </dependency>
@@ -367,7 +367,7 @@ To use the Reflection service, add the following dependency:
 [source,xml,subs="+attributes"]
 ----
 <dependency>
-  <groupId>io.vertx</groupId>
+  <groupId>com.adparts</groupId>
   <artifactId>vertx-grpc-reflection</artifactId>
   <version>${maven.version}</version>
 </dependency>
@@ -409,7 +409,7 @@ To use the Health Service, add the following dependency:
 [source,xml,subs="+attributes"]
 ----
 <dependency>
-  <groupId>io.vertx</groupId>
+  <groupId>com.adparts</groupId>
   <artifactId>vertx-grpc-health</artifactId>
   <version>${maven.version}</version>
 </dependency>

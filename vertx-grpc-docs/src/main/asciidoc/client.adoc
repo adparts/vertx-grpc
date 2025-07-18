@@ -11,7 +11,7 @@ To use Vert.x gRPC Client, add the following dependency to the _dependencies_ se
 [source,xml,subs="+attributes"]
 ----
 <dependency>
-  <groupId>io.vertx</groupId>
+  <groupId>com.adparts</groupId>
   <artifactId>vertx-grpc-client</artifactId>
   <version>${maven.version}</version>
 </dependency>
@@ -122,7 +122,7 @@ you need to pass `--vertx-codegen` option to the to the `vertx-grpc-protoc-plugi
 ----
 <protocPlugin>
   <id>vertx-grpc-protoc-plugin2</id>
-  <groupId>io.vertx</groupId>
+  <groupId>com.adparts</groupId>
   <artifactId>vertx-grpc-protoc-plugin2</artifactId>
   <version>${stack.version}</version>
   <mainClass>io.vertx.grpc.plugin.VertxGrpcGenerator</mainClass>
@@ -158,13 +158,13 @@ Here is a Maven configuration example:
       <configuration>
         <annotationProcessorPaths>
           <annotationProcessorPath>
-            <groupId>io.vertx</groupId>
+            <groupId>com.adparts</groupId>
             <artifactId>vertx-codegen</artifactId>
             <classifier>processor</classifier>
             <version>${vertx.version}</version>
           </annotationProcessorPath>
           <annotationProcessorPath>
-            <groupId>io.vertx</groupId>
+            <groupId>com.adparts</groupId>
             <artifactId>vertx-rx-java3-gen</artifactId>
             <version>${vertx.version}</version>
           </annotationProcessorPath>

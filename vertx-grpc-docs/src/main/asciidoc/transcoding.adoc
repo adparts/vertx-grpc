@@ -22,7 +22,7 @@ To use Vert.x gRPC transcoding, add the following dependency to the _dependencie
 [source,xml,subs="+attributes"]
 ----
 <dependency>
-  <groupId>io.vertx</groupId>
+  <groupId>com.adparts</groupId>
   <artifactId>vertx-grpc-transcoding</artifactId>
   <version>${maven.version}</version>
 </dependency>

@@ -133,7 +133,7 @@ class StreamingGrpcClientImpl implements StreamingGrpcClient {
         return req.response().flatMap(resp -> {
           if (resp.status() != null && resp.status() != GrpcStatus.OK) {
             MultiMap metadata;
-            if (resp.trailers().isEmpty()) { // TODO: Check if any payload has been parsed (needs GrpcReadStream modification)
+            if (resp.trailers().isEmpty()) {
               metadata = resp.headers(); // trailersOnly response
             } else {
               metadata = resp.trailers();

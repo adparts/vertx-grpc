@@ -19,7 +19,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.vertx</groupId>
+    <groupId>com.adparts</groupId>
     <artifactId>vertx-grpc-aggregator</artifactId>
     <version>5.1.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
@@ -31,27 +31,27 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.vertx</groupId>
+      <groupId>com.adparts</groupId>
       <artifactId>vertx-grpcio-server</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>io.vertx</groupId>
+      <groupId>com.adparts</groupId>
       <artifactId>vertx-grpc-reflection</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>io.vertx</groupId>
+      <groupId>com.adparts</groupId>
       <artifactId>vertx-grpc-transcoding</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>io.vertx</groupId>
+      <groupId>com.adparts</groupId>
       <artifactId>vertx-grpc-health</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>io.vertx</groupId>
+      <groupId>com.adparts</groupId>
       <artifactId>vertx-grpcio-client</artifactId>
       <version>${project.version}</version>
     </dependency>
@@ -94,7 +94,7 @@
               <protocPlugins>
                 <protocPlugin>
                   <id>vertx-grpc-protoc-plugin</id>
-                  <groupId>io.vertx</groupId>
+                  <groupId>com.adparts</groupId>
                   <artifactId>vertx-grpc-protoc-plugin2</artifactId>
                   <version>${project.version}</version>
                   <mainClass>io.vertx.grpc.plugin.VertxGrpcGenerator</mainClass>

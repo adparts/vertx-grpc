@@ -28,7 +28,7 @@ To use Vert.x gRPC Context Storage, add the following dependency to the _depende
 [source,xml,subs="+attributes"]
 ----
 <dependency>
-  <groupId>io.vertx</groupId>
+  <groupId>com.adparts</groupId>
   <artifactId>vertx-grpc-context-storage</artifactId>
   <version>${maven.version}</version>
 </dependency>
